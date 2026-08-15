@@ -1,0 +1,10 @@
+| Operation          | Python                  |
+| ------------------ | ----------------------- |
+| Total              | `sum(list)`             |
+| Maximum            | `max(list)`             |
+| Minimum            | `min(list)`             |
+| Number of elements | `len(list)`             |
+| Average            | `sum(list) / len(list)` |
+| Multiplication     | `for` loop              |
+| Even check         | `num % 2 == 0`          |
+| Odd check          | `num % 2 != 0`          |
