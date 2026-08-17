@@ -1,0 +1,12 @@
+
+| Feature       | Shallow Copy     | Deep Copy           |
+| ------------- | ---------------- | ------------------- |
+| Outer object  | New              | New                 |
+| Inner objects | Same reference   | Fully copied        |
+| Performance   | Fast ⚡           | Slower 🐢           |
+| Memory usage  | Less             | More                |
+| Use case      | Simple/flat data | Nested/complex data |
+
+
+Shallow copy   → surface level copy
+Deep copy      → full recursive copy
