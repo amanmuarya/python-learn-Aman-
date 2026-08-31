@@ -1,0 +1,73 @@
+| Pattern | Meaning              | Example                  |
+| ------- | -------------------- | ------------------------ |
+| `\d`    | Digit                | `0-9`                    |
+| `\D`    | Not a digit          | `a`, `@`                 |
+| `\w`    | Word character       | `A-Z`, `a-z`, `0-9`, `_` |
+| `\W`    | Not a word character | `@`, `#`, `%`            |
+| `\s`    | Whitespace           | space, tab               |
+| `\S`    | Not whitespace       | `A`, `1`, `@`            |
+| `.`     | Any character        | `a`, `7`, `@`            |
+| `^`     | Beginning            | `^Hello`                 |
+| `$`     | End                  | `world$`                 |
+| `+`     | One or more          | `\d+`                    |
+| `*`     | Zero or more         | `\d*`                    |
+| `?`     | Zero or one          | `\d?`                    |
+| `{n}`   | Exactly n times      | `\d{10}`                 |
+| `{n,m}` | n to m times         | `\d{2,4}`                |
+
+
+next seet 
+
+| Regex         | Meaning                          |
+| ------------- | -------------------------------- |
+| `.`           | Any one character                |
+| `[abc]`       | `a`, `b`, or `c`                 |
+| `[a-z]`       | Any lowercase letter             |
+| `[A-Z]`       | Any uppercase letter             |
+| `[0-9]`       | Any digit                        |
+| `[a-zA-Z]`    | Any English letter               |
+| `[a-zA-Z0-9]` | Letter or digit                  |
+| `[^0-9]`      | Anything except a digit          |
+| `[^abc]`      | Anything except `a`, `b`, or `c` |
+
+
+
+Easy way to remember:
+. = "anything" (one character)
+[] = "only these characters"
+For example:
+
+
+| Character | Meaning              | Example   |            |
+| --------- | -------------------- | --------- | ---------- |
+| `.`       | Any single character | `c.t`     |            |
+| `^`       | Start of string      | `^Hello`  |            |
+| `$`       | End of string        | `Python$` |            |
+| `*`       | 0 or more            | `a*`      |            |
+| `+`       | 1 or more            | `a+`      |            |
+| `?`       | 0 or 1               | `a?`      |            |
+| `{n}`     | Exactly n times      | `a{3}`    |            |
+| `{n,m}`   | n to m times         | `a{2,4}`  |            |
+| `[]`      | Character class      | `[abc]`   |            |
+| `[^]`     | NOT                  | `[^abc]`  |            |
+| `()`      | Group                | `(cat)`   |            |
+| `         | `                    | OR        | `cat\|dog` |
+| `\`       | Escape               | `\.`      |            |
+
+
+
+Dot . vs Character Class [] ---?
+
+
+
+| Feature                         | `findall()`    | `finditer()`   |
+| ------------------------------- | -------------- | -------------- |
+| Finds all matches               | ✅              | ✅              |
+| Return type                     | List           | Iterator       |
+| Returns                         | Matched values | Match objects  |
+| Position information            | ❌              | ✅              |
+| `group()` available             | ❌              | ✅              |
+| `start()` / `end()`             | ❌              | ✅              |
+| Memory efficient for large data | Less efficient | More efficient |
+
+
