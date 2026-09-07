@@ -1,0 +1,11 @@
+Why do we use OOP?
+
+OOP helps us:
+Reuse code ♻️
+Organize large projects
+Make code easier to maintain
+Reduce code duplication
+Represent real-world entities easily
+
+-- Understanding self
+self refers to the current object.
