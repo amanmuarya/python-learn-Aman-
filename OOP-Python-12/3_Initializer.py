@@ -24,3 +24,10 @@ print(s1.age)
 | It is a method                              | It is a variable               |
 | Example: `def __init__(...)`                | Example: `self.name = name`    |
 """
+
+def __init__(self, name):
+    self.name = name
+#name → Argument / parameter
+# self.name → Instance Variable
+# __init__() → Initializer
+# self → Current object    
