@@ -1,0 +1,35 @@
+POLYMORPHISM
+│
+├── Operator Overloading
+│      Same operator → Different behaviour
+│      10 + 20
+│      "A" + "B"
+│
+├── Method Overloading
+│      Same method → Different arguments
+│      add(10,20)
+│      add(10,20,30)
+│
+└── Method Overriding
+       Parent method → Child changes behaviour
+       Animal.sound()
+             ↓
+       Dog.sound()
+
+
+       Method Overloading:
+Same method ko different number/type of arguments ke saath use karna. Python mein traditional method overloading directly supported nahi hai.
+
+
+
+
+| Feature        | Method Overloading               | Method Overriding                 |
+
+
+
+| Meaning        | Same method, different arguments | Child changes parent's method     |
+| Classes        | Usually same class               | Parent + Child classes            |
+| Inheritance    | ❌ Not required                   | ✅ Required                        |
+| Main purpose   | Different inputs handle karna    | Different behaviour provide karna |
+| Python support | Direct traditional overloading ❌ | Fully supported ✅                 |
+| Example        | `add(a,b)` / `add(a,b,c)`        | `Animal.sound()` → `Dog.sound()`  |
