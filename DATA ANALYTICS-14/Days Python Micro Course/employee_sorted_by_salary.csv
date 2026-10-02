@@ -1,0 +1,51 @@
+Employee_ID,Employee_Name,Department,City,Salary,Joining_Year
+E135,Anil Kapoor,Finance,Delhi,68000,2016
+E116,Arjun Patel,Finance,Mumbai,67000,2017
+E141,Ashok Verma,Finance,Mumbai,67000,2017
+E123,Vinod Nair,Finance,Mumbai,66000,2017
+E147,Ajay Singh,Finance,Delhi,66000,2017
+E138,Mahesh Iyer,Finance,Chennai,65000,2018
+E113,Raj Malhotra,Finance,Delhi ,65000,2016
+E126,Shweta Kulkarni,Finance,Delhi,64000,2018
+E150,Suresh Iyer,Finance,Chennai,64000,2018
+E120,Meena Iyer,Finance,Chennai,63000,2018
+E144,Sameer Khan,Finance,Pune,63000,2018
+E106,RAHUL JAIN,Finance,MUMBAI,62000,2017
+E132,Prakash Jadhav,Finance,PUNE,62000,2017
+E110,Neha Kulkarni,Finance,Pune,61000,2018
+E103,Amit Verma,Finance, delhi,60000,2018
+E129,Amit Verma,Finance,Delhi,60000,2018
+E104,Karan Gupta,IT,Chennai ,58000,2021
+E130,Kiran Pawar,IT,Mumbai,56000,2022
+E133,Rohit Sharma,IT,mumbai,55000,2020
+E145,Rohit Sharma,IT,MUMBAI,55000,2020
+E101,  rohit sharma ,IT, mumbai ,55000,2020
+E109,rohit sharma,IT,Mumbai,55000,2020
+E119,Rohit Sharma,IT,MUMBAI,55000,2020
+E139,Rajesh Kumar,IT,Delhi,54000,2022
+E148,Pranav Kulkarni,IT,Pune,54000,2021
+E121,Sanjay Mishra,IT,Delhi,54000,2022
+E136,Sachin Patil,IT,Pune,53000,2021
+E117,Kavita Joshi,IT,delhi,53000,2021
+E111, Suresh Kumar ,IT,Delhi,52000,2021
+E142,Kunal Desai,IT,Chennai,52000,2020
+E127,Rakesh Yadav,IT,CHENNAI,52000,2020
+E124,Aarti Kulkarni,IT,Pune,51000,2021
+E107,Anita Desai,IT,delhi ,50000,2022
+E114,vikas singh,IT,PUNE,48000,2022
+E122,Priya Singh,HR,PUNE,45000,2020
+E105,priya singh,HR,pune ,45000,2020
+E118,Deepak Rao,HR,Pune,44000,2020
+E137,Reena Shah,HR,Mumbai,44000,2020
+E140,Payal Mehta,HR,PUNE,43000,2019
+E149,Neha Patil,HR,Mumbai,43000,2019
+E128,Smita Patil,HR,Pune,43000,2019
+E112,pooja mehta,HR, mumbai,43000,2020
+E143,Pallavi Joshi,HR,Delhi,42000,2019
+E125,Nitin Deshmukh,HR, mumbai ,42000,2019
+E102,SNEHA PATIL,HR,PUNE,42000,2019
+E115,Nisha Shah,HR,Chennai,41000,2019
+E146,Monika Gupta,HR,Chennai,41000,2020
+E131,Neelam Joshi,HR,Delhi,41000,2020
+E108,Manoj Yadav,HR,CHENNAI,40000,2019
+E134,Sunita More,HR,Chennai,40000,2019
